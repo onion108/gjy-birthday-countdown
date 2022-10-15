@@ -1,0 +1,38 @@
+@import url(../shared/shared.css);
+
+#main-title {
+  text-align: center;
+}
+
+span#count-down-suji {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 3px solid white;
+}
+
+div#count-down-panel {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+div#count-down-panel > div#count-down-wrapper {
+  background-color: rgb(186, 133, 142);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+div#suffix-text {
+  font-size: 2em;
+  text-align: center;
+}

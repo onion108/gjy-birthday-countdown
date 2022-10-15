@@ -1,0 +1,28 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+span.highlight {
+  color: rgb(236, 174, 184);
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 7px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+span.highlight:hover {
+  color: white;
+  background-color: rgb(248, 168, 180);
+}
+
+html {
+  background-color: rgb(255, 210, 217);
+}
+
+body {
+  background-color: rgb(225, 185, 191);
+  border-radius: 5px;
+}
