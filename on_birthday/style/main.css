@@ -38,6 +38,7 @@ body {
   background-size: contain;
   width: 10em;
   height: 10em;
+  margin: 5px;
 }
 
 #tail {
@@ -51,4 +52,24 @@ body {
   margin: 10px;
   letter-spacing: 2px;
   font-size: 0.6em;
+}
+
+.content-card {
+  padding: 9px;
+  margin: 3px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: pink;
+}
+
+.content-card > .c-title {
+  font-size: 3em;
+  font-weight: bolder;
+  margin-bottom: 17px;
+  margin-top: 7px;
+}
+
+.content-card > .c-content {
+  margin: 5px;
+  font-size: 1.25em;
 }
